@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\POCs\\GraphQL.POC.API\\GraphQL.POC.API.csproj": {}
+  },
+  "projects": {
+    "D:\\POCs\\GraphQL.POC.API\\GraphQL.POC.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\POCs\\GraphQL.POC.API\\GraphQL.POC.API.csproj",
+        "projectName": "GraphQL.POC.API",
+        "projectPath": "D:\\POCs\\GraphQL.POC.API\\GraphQL.POC.API.csproj",
+        "packagesPath": "C:\\Users\\sharadp5\\.nuget\\packages\\",
+        "outputPath": "D:\\POCs\\GraphQL.POC.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sharadp5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\ATS_Integration_Code\\Source\\ApiClient\\Tmp.Applicants.Api.Client\\bin\\Debug": {},
+          "D:\\ATS_Integration_Code\\Source\\Tmp.Applicants.Dto\\bin\\Debug": {},
+          "D:\\JD_Project_Repository\\core\\Source\\Client\\bin\\Debug\\": {},
+          "http://nuget.tmp.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.internaltmp.com/repository/nuget-group/": {},
+          "https://nexus.internaltmp.com/repository/nuget-hosted/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "GraphQL.Server.Transports.AspNetCore": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "GraphQL.Server.Transports.AspNetCore.SystemTextJson": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "GraphQL.Server.Ui.Playground": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.28, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.28, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
